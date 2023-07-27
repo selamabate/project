@@ -1,0 +1,37 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My page</title>
+      <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body class="back">
+    <form  id="create-account-form" action="login.php"  name="myform" method="post">
+        
+        <div class="title">
+            <h2 align="center"><i>Login</i></h2>
+        </div>
+        <!-- USERNAME -->
+        <div class="input-group">
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="enter your Name" name="name" onchange="validateForm()" required>
+            <p id="n"></p>
+            <h2 id="x"></h2>
+        </div>
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="enter your Password" name="password" onchange="change()" required>
+          
+            <p id="m"></p>
+            <h2 id="y"></h2>
+        </div>
+        <input type="submit" class="btn" value="Login" align="center">
+        <p  style="text-align:center;text-transform: none;">you haven't an account?<a href="signup.html" style="color:pink;">signup</a></p>
+    </form></br>
+    <script src="form.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,293 @@
+ body{
+    background-color:bisque;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+a button:visited{
+    background-color: cadetblue;
+}
+.tbl{
+    margin-top: 55;
+}
+.btn a{
+color: black;
+text-decoration: none;
+}
+.btn a:hover{
+
+color:blueviolet
+}
+.btn:hover{
+background-color: antiquewhite;
+border-radius: 30px;
+transition: 1s;
+}
+a button{
+    margin: 20px;
+    width:10%;
+     height:10%;
+     background-color: rgb(224, 199, 136);
+     text-decoration: underline;
+     border-radius: 20px;
+     text-transform: uppercase;
+  }
+  .sec{
+    background-image: url("pc1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 70%;
+   }
+  .tc{
+    background-color: brown;
+    color:bisque;
+  }
+  .aa button{
+    border: none;
+  }
+  .d{
+    background-color: brown;
+    height: 10%;
+    width: 30%;
+    text-align: center;
+    color: bisque;
+  }
+h1 i{
+color:yellowgreen;
+}
+p.b{
+  color: 2f5a78;
+}
+section button{
+    border-radius: 20px;
+    border:2px solid blue;
+}
+header{
+background-image: url("desktop.jpg");
+background-repeat: no-repeat;
+height: 500px;
+width: 105%;
+background-size: cover;
+margin-bottom: 3%;
+border-radius: 30px;
+}
+header a{
+    color:blue;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-transform: uppercase;
+}
+tr button{
+    padding-right: 40px;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+nav li{
+    list-style-type: none;
+    display:inline;
+    margin:0 10px 0 0;
+   
+}
+.nav{
+ display: inline-block;
+}
+img{
+    color: black;
+
+}
+.sec2{
+    background: url("w1.jpg") no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    height: 70%;
+    border-radius: 50px;
+}
+.contact{
+    background: url(desktop.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    height: 70%;
+    border-radius: 50px;
+}
+.contact h1{
+    text-align: center;
+    color: yellowgreen;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    margin: 10px auto;
+    
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    
+}
+.input-control{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: black;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+.input-control :focus{
+box-shadow: 0 0 10px 4px #34495e;
+}
+.textarea.input-control{
+    resize: none;
+    size: 120px;
+}
+.bt{
+    float: right;
+    border: 0;
+    background: chocolate;
+    width:10%;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.bt:hover{
+   background: rgb(65, 42, 42); 
+}
+.icon a img{
+    width: 30px;
+    background: rgb(199, 197, 197);
+    border-radius: 30px;
+}
+
+.icon{
+    display:flex ;
+   
+    gap: 20px;
+}
+header.uni{
+    text-align: center;
+    color:white;
+    background-image: url("desktop.jpg");
+background-repeat: no-repeat;
+height: 220px;
+width: 100%;
+background-size: cover;
+margin-bottom: 3%;
+}
+.menu{
+    background-color: aliceblue;
+}
+footer{
+    background:rgb(48, 41, 41);
+    color:white;
+    font-size: 12px;
+    padding:8px;
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+}
+section{
+    background:white;
+   
+    background-size: 100px;
+    background-position: center;
+    margin-top: 10px;
+    height:200px;
+}
+
+.pdf{
+    background-image: url("image/th\ \(1\).jpg");
+    
+}
+a button:hover{
+  cursor:pointer;
+    color:#57b9fa;
+background-color: antiquewhite;
+border-radius: 20px;
+transition: 0.4s;
+}
+.back {
+    background-image: url("a2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+#create-account-form {
+    width:400px;
+    padding:20px;
+    text-transform: uppercase;
+    background-color: none;
+    color: white;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin:20px 0; 
+    position:relative;
+    display:block;
+   
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display:block;
+    width:100%;
+    padding:10px;   
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+ .input-group p {
+     font-size: 13px;
+     color:red;
+ 
+ }
+ .input-group h2 {
+    font-size: 15px;
+    color:green;
+}
+ .btn {
+     width:70%;
+     padding:10px;
+     font-size: 20px;
+     background-color: chocolate;
+     font-weight: bold;
+     color:#fff;
+     text-transform: uppercase;
+     border-radius: 20px;
+     font-size: 15px;
+ }
+ input{
+    border-radius: 10px;
+ }
+
